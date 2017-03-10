@@ -1,0 +1,9 @@
+<h1>Invoices</h1>
+<%= Invoice.all.each do |invoice| %>
+  <li>
+    <%= invoice.id %>
+  </li>
+  <li>
+    invoice.customer.name
+  </li>
+  <% end %>
